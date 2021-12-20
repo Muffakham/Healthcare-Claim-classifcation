@@ -25,5 +25,5 @@ The entire solution has been developed on the free Cloud GPU instances of Google
   * these vectors are then used by the K-Nearest neighbor model to obtain train and predict the outputs of the unknown (test data).  
   * A key point to note here is that the model that has been used for this section, has not been finetuned on the dataset.
 
-##update: 
+## Update: 
 For the apporach B, where a KNN model was used on top of RoBERTa embeddings, earlier the model was not fine tuned on the dataset, it the recent update, I have used the model that was finetuned on the dataset in the approach A for the approach B and have been abale to acheive better results. These are present in the results folder.
